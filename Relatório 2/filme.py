@@ -11,9 +11,6 @@ class Filme:
         self.duracao = duracao
         pass
     
-    def get_titulo(self):
-        return self.titulo
-    
     def get_ano(self):
         return self.ano
     
@@ -22,9 +19,6 @@ class Filme:
     
     def get_genero(self):
         return self.genero
-    
-    def get_duracao(self):
-        return self.duracao
 
     def infos_filme(self):
         print(f"Titulo: {self.titulo}")
