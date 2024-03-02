@@ -30,18 +30,3 @@ class Catalago:
             else:
                 print("nenhum filme encontrado")
     
-    def busca_ano(self,ano):
-        for Filme in self.filmes:
-            if Filme.get_ano() == ano:
-                print(Filme.infos_filme())
-
-    def busca_genero(self,genero):
-        for Filme in self.filmes:
-            if Filme.get_genero() == genero:
-                print(Filme.infos_filme())
-        
-    def busca_diretor(self,diretor):
-        for Filme in self.filmes:
-            if Filme.get_diretor() == diretor:
-                print(Filme.infos_filme())
-    
