@@ -1,0 +1,7 @@
+O objetivo desata atividade é revisar os conceitos de POO (Extra: Nos slides compartilhados, você pode seguir os exemplos dados em Java e tentar reproduzir usando a linguagem Python).
+Para isso você deve aplicar os conceitos de POO para construir um catálogo de filmes.
+
+O sistema deve possibilitar o cadastro de filmes (contendo título, ano de lançamento, diretor(a), gênero e duração).
+Também deve possibilitar a listagem dos filmes cadastrados, permitindo o filtro e ordenação por ano de lançamento, gênero e diretor. 
+Pode fazer um sistema simples em Python e fazer os cadastros pelo terminal, mas recomendo que aplique esses conceitos no sistema Django construído na última aula. 
+Na próxima aula, vamos explorar as soluções construídas e vou tirar dúvidas.
