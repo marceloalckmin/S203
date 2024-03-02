@@ -19,7 +19,7 @@ while True:
         diretor = input("Diretor: ")
         duracao = input("Duracao: ")
 
-        filme = Filme(titulo,ano,genero,diretor,duracao)
+        filme = Filme(titulo,ano,diretor,genero,duracao)
         catalogo.add_filme(filme)
         print("Prontinho! Adicionado!")
 
